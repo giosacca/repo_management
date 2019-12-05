@@ -1,0 +1,9 @@
+import distutils.core
+
+du.setup(
+		name = '{package}',
+		version = '0.1dev',
+		packages = {modules},
+		license = {license},
+		long_description = open('README.md').read(),
+)
